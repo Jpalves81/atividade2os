@@ -1,0 +1,66 @@
+//atividade 1//
+#include <stdio.h
+#include <stdlib.h>
+
+int main() {
+ int num;
+ printf("Digite o DDD do estado desejado:");
+ scanf("%d", &num);
+ switch (num)
+ {
+ 	case 61:
+printf("\n\nBrasilia.\n");	 	
+ 		break;	
+ 	case 71:
+printf("\n\nSalvador.\n");	 		
+	 	break;
+	case 11:
+printf("\n\nSao Paulo.\n");			
+	 	break;
+	case 21:
+printf("\n\nRio de Janeiro.\n");			
+	 	break;
+	case 32:
+printf("\n\nJuiz de fora.\n");			
+	 	break;
+	case 19:
+printf("\n\nCampinas.\n");			
+	 	break;
+	case 27:
+printf("\n\nVitoria.\n");			
+	 	break;
+	case 31:
+printf("\n\nBelo horizonte.\n");			
+	 	break;
+	default:
+	printf("\n\nNao existe esse estado em nosso banco de dados.");		
+	 	
+	 }	
+	return 0;
+}
+
+//ativdade  2//
+#include <stdio.h>
+#include <stdlib.h>   
+#include <conio.h> 
+
+int main(){
+	
+	int salario, prestacao;
+	    printf("Digite o valor do seu salario:\n");
+	    scanf("%d", &salario);
+	
+		printf("Digite o valor da prestacao do emprestimo:\n");
+    	scanf("%d", &prestacao);
+    	
+    	if (prestacao>salario*20/100){
+    		printf("emprestimo nao concedido\n");
+		}
+     	else{ 
+		 printf("emprestimo concedido");
+		 }
+		
+	  return 0;
+}
+//atividade 3//
+
